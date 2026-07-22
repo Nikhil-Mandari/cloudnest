@@ -1,13 +1,29 @@
-# CloudNest
+# ☁️ CloudNest
 
-Personal Cloud Storage & File Management System
+> Your Personal Cloud. Your Files. Anywhere.
+
+CloudNest is a Full Stack Personal Cloud Storage & File Management System built using Java Spring Boot, React, TypeScript, MySQL, and Supabase Storage.
 
 ## Tech Stack
 
-- React
+- Java 21
 - Spring Boot
+- Spring Security
+- JWT
 - MySQL
+- React
+- TypeScript
+- Tailwind CSS
 - Supabase Storage
-- JWT Authentication
 
-Currently under development.
+## Status
+
+🚧 Under Development
+
+## Documentation
+
+- ✅ Project Context
+- ⏳ Requirements
+- ⏳ Architecture
+- ⏳ Database Design
+- ⏳ API Contract
