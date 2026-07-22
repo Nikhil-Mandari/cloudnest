@@ -1,72 +1,55 @@
-# PROJECT_CONTEXT.md
+# ☁️ CloudNest — Project Context
 
-# Project Name
-
-CloudNest - Personal Cloud Storage & File Management System
+> **CloudNest** is a personal cloud storage and file management platform designed to provide secure, browser-based access to files from anywhere.
 
 ---
 
-## Tagline
+## 📌 Project Snapshot
 
-Your Personal Cloud. Your Files. Anywhere.
-
----
-
-# Version
-
-v1.0
+- **Tagline:** *Your Personal Cloud. Your Files. Anywhere.*
+- **Version:** `v1.0`
+- **Project Type:** Full-Stack Web Application
+- **Category:** Cloud Storage / File Management Platform
 
 ---
 
-# Project Type
+## 🧩 Problem Statement
 
-Full Stack Web Application
+Users often store files across multiple devices (laptops, desktops, and mobile phones), which makes organization and accessibility difficult. Existing cloud storage products may not always fit students or individuals looking for a lightweight personal cloud solution.
 
----
-
-# Project Category
-
-Cloud Storage / File Management Platform
+CloudNest addresses this by offering a secure web-based platform where users can upload, organize, preview, search, and manage personal files from any browser.
 
 ---
 
-# Problem Statement
+## 🎯 Vision
 
-Users often store files across multiple devices such as laptops, desktops, and mobile phones, making file organization and accessibility difficult. Existing cloud storage solutions may not always meet the needs of students or individuals looking for a lightweight personal cloud solution.
-
-CloudNest provides a secure web-based platform where users can upload, organize, preview, search, and manage their personal files from anywhere using a browser.
+Build a production-ready cloud storage platform using Java full-stack technologies that demonstrates industry-standard architecture, security, scalability, and modern UI/UX.
 
 ---
 
-# Vision
+## ✅ Objectives
 
-To build a production-ready cloud storage platform using Java Full Stack technologies that demonstrates industry-standard software architecture, security, scalability, and modern UI/UX.
-
----
-
-# Objectives
-
-• Learn enterprise-level Java Full Stack development.
-• Build a portfolio-quality project.
-• Implement secure authentication.
-• Practice REST API development.
-• Understand cloud file storage.
-• Gain experience with deployment.
-• Learn clean architecture and documentation.
+- Learn enterprise-level Java full-stack development.
+- Build a portfolio-quality project.
+- Implement secure authentication.
+- Practice REST API development.
+- Understand cloud file storage.
+- Gain deployment experience.
+- Apply clean architecture and strong documentation practices.
 
 ---
 
-# Target Users
+## 👥 Target Users
 
-• Students
-• Developers
-• Freelancers
-• Small Businesses
-• Individuals
+- Students
+- Developers
+- Freelancers
+- Small businesses
+- Individuals
 
 ---
 
-# User Roles
+## 🧑‍💼 User Roles
 
 1. Guest
 2. Registered User
@@ -74,9 +57,9 @@ To build a production-ready cloud storage platform using Java Full Stack technol
 
 ---
 
-# Technology Stack
+## 🛠️ Technology Stack
 
-## Frontend
+### Frontend
 
 - React
 - TypeScript
@@ -87,9 +70,7 @@ To build a production-ready cloud storage platform using Java Full Stack technol
 - Framer Motion
 - React Hook Form
 
----
-
-## Backend
+### Backend
 
 - Java 21
 - Spring Boot
@@ -100,287 +81,189 @@ To build a production-ready cloud storage platform using Java Full Stack technol
 - Bean Validation
 - Swagger
 
----
+### Database
 
-## Database
-
-MySQL
-
----
-
-## Cloud Storage
-
-Supabase Storage
-
----
-
-## Version Control
-
-Git
-GitHub
-
----
-
-## API Testing
-
-Postman
-
----
-
-## Build Tool
-
-Maven
-
----
-
-## Deployment
-
-Frontend
-- Vercel
-
-Backend
-- Render
-
-Database
 - MySQL
 
-Storage
+### Cloud Storage
+
 - Supabase Storage
 
+### Version Control
+
+- Git
+- GitHub
+
+### API Testing
+
+- Postman
+
+### Build Tool
+
+- Maven
+
 ---
 
-# High Level Architecture
+## 🚀 Deployment
 
+- **Frontend:** Vercel
+- **Backend:** Render
+- **Database:** MySQL
+- **Storage:** Supabase Storage
+
+---
+
+## 🏗️ High-Level Architecture
+
+```text
 React Frontend
-
-↓
-
+   ↓
 Spring Boot REST API
-
-↓
-
+   ↓
 Spring Security + JWT
-
-↓
-
+   ↓
 Business Layer
-
-↓
-
+   ↓
 JPA/Hibernate
-
-↓
-
+   ↓
 MySQL Database
-
-↓
-
+   ↓
 Supabase Storage
+```
 
 ---
 
-# Application Layers
+## 🧱 Application Layers
 
+```text
 Presentation Layer
-
-↓
-
+   ↓
 Controller Layer
-
-↓
-
+   ↓
 Service Layer
-
-↓
-
+   ↓
 Repository Layer
-
-↓
-
+   ↓
 Database
+```
 
 ---
 
-# Project Modules
+## 📦 Project Modules
 
-Authentication Module
-
-User Management Module
-
-Dashboard Module
-
-Folder Management Module
-
-File Management Module
-
-Search Module
-
-Sharing Module
-
-Favorites Module
-
-Trash Module
-
-Profile Module
-
-Notification Module
-
-Admin Dashboard
-
-Activity Logs
+- Authentication Module
+- User Management Module
+- Dashboard Module
+- Folder Management Module
+- File Management Module
+- Search Module
+- Sharing Module
+- Favorites Module
+- Trash Module
+- Profile Module
+- Notification Module
+- Admin Dashboard
+- Activity Logs
 
 ---
 
-# Coding Standards
+## 📐 Coding Standards
 
-• Layered Architecture
-• SOLID Principles
-• DTO Pattern
-• Repository Pattern
-• Constructor Injection
-• Global Exception Handler
-• Validation
-• Swagger Documentation
-• Meaningful Logging
-• REST Naming Standards
+- Layered Architecture
+- SOLID Principles
+- DTO Pattern
+- Repository Pattern
+- Constructor Injection
+- Global Exception Handler
+- Validation
+- Swagger Documentation
+- Meaningful Logging
+- REST Naming Standards
 
 ---
 
-# Folder Structure
+## 📁 Folder Structure
 
+```text
 cloudnest/
-
-docs/
-
-frontend/
-
-backend/
-
-database/
-
-docker/
-
-postman/
-
-.github/
-
-README.md
+├── docs/
+├── frontend/
+├── backend/
+├── database/
+├── docker/
+├── postman/
+├── .github/
+└── README.md
+```
 
 ---
 
-# Git Branching Strategy
+## 🌿 Git Branching Strategy
 
-main
-
-develop
-
-feature/authentication
-
-feature/file-upload
-
-feature/folder-management
-
-feature/search
-
-feature/admin
-
-feature/sharing
-
-feature/profile
+- `main`
+- `develop`
+- `feature/authentication`
+- `feature/file-upload`
+- `feature/folder-management`
+- `feature/search`
+- `feature/admin`
+- `feature/sharing`
+- `feature/profile`
 
 ---
 
-# Git Commit Standard
+## 📝 Git Commit Standard
 
-feat:
-
-fix:
-
-docs:
-
-refactor:
-
-style:
-
-test:
-
-chore:
+- `feat:`
+- `fix:`
+- `docs:`
+- `refactor:`
+- `style:`
+- `test:`
+- `chore:`
 
 ---
 
-# Daily Development Workflow
+## 🔄 Daily Development Workflow
 
-1. Read documentation
-2. Select task
-3. Create feature branch
-4. Develop one module
-5. Test locally
-6. Commit changes
-7. Push GitHub
-8. Update documentation
-
----
-
-# Deployment Strategy
-
-Frontend
-
-Vercel
-
-Backend
-
-Render
-
-Database
-
-MySQL
-
-Cloud Storage
-
-Supabase Storage
+1. Read documentation.
+2. Select task.
+3. Create a feature branch.
+4. Develop one module.
+5. Test locally.
+6. Commit changes.
+7. Push to GitHub.
+8. Update documentation.
 
 ---
 
-# Security Standards
+## 🔐 Security Standards
 
-JWT Authentication
-
-BCrypt Password Encoding
-
-Role-Based Access Control
-
-Input Validation
-
-File Ownership Verification
-
-Global Exception Handling
-
-Secure REST APIs
+- JWT Authentication
+- BCrypt Password Encoding
+- Role-Based Access Control
+- Input Validation
+- File Ownership Verification
+- Global Exception Handling
+- Secure REST APIs
 
 ---
 
-# Non Functional Goals
+## ⚙️ Non-Functional Goals
 
-High Performance
-
-Responsive Design
-
-Scalable Architecture
-
-Maintainable Code
-
-Reusable Components
-
-Secure APIs
-
-Fast Loading
-
-Production Ready
+- High performance
+- Responsive design
+- Scalable architecture
+- Maintainable code
+- Reusable components
+- Secure APIs
+- Fast loading
+- Production readiness
 
 ---
 
-# Expected Project Outcome
+## 🎓 Expected Outcome
 
 CloudNest will be a production-ready personal cloud platform that enables users to securely store, organize, manage, preview, search, and share files from anywhere using a browser.
 
-The project will demonstrate modern Java Full Stack development practices and serve as a portfolio-ready application suitable for technical interviews and placements.
+The project demonstrates modern Java full-stack development practices and serves as a portfolio-ready application suitable for technical interviews and placements.
